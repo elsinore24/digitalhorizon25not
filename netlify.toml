@@ -1,0 +1,11 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cross-Origin-Resource-Policy = "cross-origin"
+    Cross-Origin-Embedder-Policy = "credentialless"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
